@@ -14,6 +14,7 @@ input.addEventListener('keyup', () => {
 })
 
 
+
 addBtn.addEventListener('click', (e) => {
     if (input.value.trim() !== 0 ) {
         const newItem = document.createElement('div')
